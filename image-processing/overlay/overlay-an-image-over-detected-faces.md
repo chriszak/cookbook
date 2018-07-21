@@ -13,7 +13,7 @@ Here's an example of an image automatically fetched from Wikimedia Commons:
 {% code-tabs %}
 {% code-tabs-item title="URL" %}
 ```text
-https://res.cloudinary.com/demo/image/fetch/http://upload.wikimedia.org/wikipedia/commons/4/45/Spain_national_football_team_Euro_2012_final.jpg
+
 
 ```
 {% endcode-tabs-item %}
@@ -38,7 +38,7 @@ Instead of specifying a fixed value for the `badge` image's width, you can tell 
 {% code-tabs %}
 {% code-tabs-item title="URL" %}
 ```text
-https://res.cloudinary.com/demo/image/fetch/l_badge,g_faces,w_0.1,fl_relative/http://upload.wikimedia.org/wikipedia/commons/4/45/Spain_national_football_team_Euro_2012_final.jpg
+
 
 ```
 {% endcode-tabs-item %}
@@ -51,7 +51,7 @@ Cloudinary can even take this one step further with the option of automatically 
 {% code-tabs %}
 {% code-tabs-item title="URL" %}
 ```text
-https://res.cloudinary.com/demo/image/fetch/l_badge,g_faces,w_1.0,h_1.0,fl_region_relative/http://upload.wikimedia.org/wikipedia/commons/4/45/Spain_national_football_team_Euro_2012_final.jpg
+
 
 ```
 {% endcode-tabs-item %}

@@ -19,6 +19,6 @@ description: By Robert Moseley Director - Solutions Engineering
 ### Final URL:
 
 ```text
-http://res.cloudinary.com/demo-robert/image/upload/e_tilt_shift/DSjKxBfVwAAZidN_qjympa.jpg
+
 ```
 

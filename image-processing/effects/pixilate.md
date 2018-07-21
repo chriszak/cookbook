@@ -13,7 +13,7 @@ Here's an original image fetched on-the-fly from a public remote HTTP URL at Wik
 {% code-tabs %}
 {% code-tabs-item title="URL" %}
 ```text
-https://res.cloudinary.com/demo/image/fetch/http://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Austin_A110_Westminster_MkII_tail.jpg/550px-Austin_A110_Westminster_MkII_tail.jpg
+
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -25,7 +25,7 @@ Using the **`pixelate`** effect to apply pixelization on the whole image:
 {% code-tabs %}
 {% code-tabs-item title="URL" %}
 ```text
-https://res.cloudinary.com/demo/image/fetch/e_pixelate/http://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Austin_A110_Westminster_MkII_tail.jpg/550px-Austin_A110_Westminster_MkII_tail.jpg
+
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
@@ -49,7 +49,7 @@ You can also blur only a certain region of the image based on the position \(**`
 {% code-tabs %}
 {% code-tabs-item title="URL" %}
 ```text
-https://res.cloudinary.com/demo/image/fetch/c_fill,e_pixelate_region,h_80,w_200,x_170,y_260/http://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Austin_A110_Westminster_MkII_tail.jpg/550px-Austin_A110_Westminster_MkII_tail.jpg
+
 
 ```
 {% endcode-tabs-item %}
@@ -62,7 +62,7 @@ The **`pixelate_region`** effect also supports customizing the squares' size, th
 {% code-tabs %}
 {% code-tabs-item title="URL" %}
 ```text
-https://res.cloudinary.com/demo/image/fetch/c_fill,e_pixelate_region:30,h_80,w_200,x_170,y_260/http://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Austin_A110_Westminster_MkII_tail.jpg/550px-Austin_A110_Westminster_MkII_tail.jpg
+
 
 ```
 {% endcode-tabs-item %}
@@ -75,7 +75,7 @@ With the **`pixelate`** effect you can create nice looking effects, for example:
 {% code-tabs %}
 {% code-tabs-item title="URL" %}
 ```text
-https://res.cloudinary.com/demo/image/fetch/a_45/e_pixelate:10/a_-45/e_trim/w_0.9,c_crop/http://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Austin_A110_Westminster_MkII_tail.jpg/550px-Austin_A110_Westminster_MkII_tail.jpg
+
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}

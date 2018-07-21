@@ -13,8 +13,8 @@ Beautifully cropped square image, but to make it a cover image we need the image
 ![](http://res.cloudinary.com/capitol-music-group/image/upload/ar_16:9,c_lpad,g_east/w_600/v1526606182/wayne-shorter/speak-no-evil/WSHORW12.jpg)
 
 ```text
-http://res.cloudinary.com/capitol-music-group/image/upload/
-ar_16:9,c_lpad,g_east/v1526606182/wayne-shorter/speak-no-evil/WSHORW12.jpg
+
+
 ```
 
 We added aspect ratio of 16:9, cropping of lpad and gravity east to create the image and move it to the right. This done simply by adding the params into the url as follows:
@@ -26,14 +26,14 @@ ar_16:9,c_lpad,g_east
 Nice but would it be better if the background color matched the exact same color as the backgound in our original?   Easy!  Just add background auto to our url: 
 
 ```text
-b_auto
+
 ```
 
 ![](http://res.cloudinary.com/capitol-music-group/image/upload/ar_16:9,b_auto,c_lpad,g_east/w_600/v1526606182/wayne-shorter/speak-no-evil/WSHORW12.jpg)
 
 ```text
-http://res.cloudinary.com/capitol-music-group/image/upload/
-ar_16:9,b_auto,c_lpad,g_east/v1526606182/wayne-shorter/speak-no-evil/WSHORW12.jpg
+
+
 ```
 
 Looking good! Now lets optimize this for performance and quality.
@@ -43,7 +43,7 @@ Looking good! Now lets optimize this for performance and quality.
 We can optimize the dpi, format, and quality with a few additional params in our url:  
 
 ```text
-dpr_auto,f_auto,q_auto:best
+,q_auto:best
 ```
 
 The addition of these params will improve performance and delivery of the final image tremendously,  In general you should always use them. 
@@ -73,14 +73,14 @@ Add some text:
 ![](http://res.cloudinary.com/capitol-music-group/image/upload/ar_16:9,b_auto,c_lpad,dpr_1.0,e_art:red_rock,g_east,q_auto:best/c_scale,fl_relative,w_0.3,g_west,l_overlays:4194-wayne-shorter-speak-no-evil-mm-cover-1900-ljc,x_0.05,a_-20/l_text:roboto_155_stroke_center_line_spacing_-10:Speak%20No%20Evil,co_white,bo_5px_solid_black,g_north_west,x_400,y_80,w_580,c_fit/l_text:impact_55_stroke_center_line_spacing_-10:Wayne%20Shorter,co_white,bo_5px_solid_red/c_scale,w_600/wayne-shorter/speak-no-evil/WSHORW12.jpg)
 
 ```text
-http://res.cloudinary.com/capitol-music-group/image/upload/
-ar_16:9,b_auto,c_lpad,dpr_1.0,e_art:red_rock,g_east,q_auto:best/
-c_scale,fl_relative,w_0.3,g_west,
-l_overlays:4194-wayne-shorter-speak-no-evil-mm-cover-1900-ljc,x_0.05,a_-20/
-l_text:roboto_155_stroke_center_line_spacing_-10:Speak%20No%20Evil,
-co_white,bo_5px_solid_black,g_north_west,x_400,y_80,w_580,c_fit/
-l_text:impact_55_stroke_center_line_spacing_-10:Wayne%20Shorter,co_white,bo_
-5px_solid_white/c_scale,w_600/wayne-shorter/speak-no-evil/WSHORW12.jpg
+
+
+
+
+
+
+
+
 ```
 
 #### Variations
@@ -88,11 +88,11 @@ l_text:impact_55_stroke_center_line_spacing_-10:Wayne%20Shorter,co_white,bo_
 ![](http://res.cloudinary.com/capitol-music-group/image/upload/w_600/ar_16:9,b_auto,e_gradient_fade:symmetric_pad,x_0.2,c_pad,f_auto,g_east,q_auto/v1526782137/blue-note/wayne-shorter/MI0001444348.jpg.jpg)
 
 ```text
-http://res.cloudinary.com/capitol-music-group/image/upload/
-ar_16:9,
-b_auto,e_gradient_fade:symmetric_pad,x_0.2,
-c_pad,f_auto,g_east,q_auto/v1526782137/
-blue-note/wayne-shorter/MI0001444348.jpg.jpg
+
+
+
+
+
 ```
 
 This variation pulls in the background color and eases in the transition with gradient fade:
@@ -108,11 +108,11 @@ b_auto,e_gradient_fade:symmetric_pad,x_0.2
 Here we use the gradient fade to transition the background to white:
 
 ```text
-http://res.cloudinary.com/capitol-music-group/image/upload
-ar_16:9,
-b_white,
-e_gradient_fade:symmetric_pad,x_0.2,c_pad,f_auto,g_east,q_auto/
-v1526782137/blue-note/wayne-shorter/MI0001444348.jpg.jpg
+
+
+
+
+
 ```
 
 You can also have the that gradient fade into transparency to reveal the background;  remember to change the format extension to png.
@@ -120,11 +120,11 @@ You can also have the that gradient fade into transparency to reveal the backgro
 ![](http://res.cloudinary.com/capitol-music-group/image/upload/w_600/ar_16:9,b_transparent,e_gradient_fade:symmetric_pad,x_0.2,c_pad,f_auto,g_east,q_auto/v1526782137/blue-note/wayne-shorter/MI0001444348.jpg.png)
 
 ```text
-http://res.cloudinary.com/capitol-music-group/image/upload/
-ar_16:9,b_transparent,e_gradient_fade:symmetric_pad,x_0.2,
-c_pad,f_auto,g_east,q_auto
-/v1526782137/blue-note/wayne-shorter/MI0001444348.jpg
-.png
+
+
+
+
+
 ```
 
 Now see how this technique might look on a web page with an interesting background:
