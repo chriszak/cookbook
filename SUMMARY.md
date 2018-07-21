@@ -8,6 +8,6 @@
     * [Pixelate an image or a region](image-processing/effects/pixilate.md)
   * [Build a cover image](image-processing/build-a-cover-image.md)
   * [Overlay](image-processing/overlay/README.md)
-    * [Overlay an image over detected faces](image-processing/overlay/overlay-an-image-over-detected-faces.md)
-* [Create your own Duotone Filter](create-your-own-duotone-filter.md)
+    * [Overlay an image over detected faces](image-processing/overlay/overlay-an-image-over-detected-faces/README.md)
+      * [Create your own Duotone Filter](image-processing/overlay/overlay-an-image-over-detected-faces/create-your-own-duotone-filter.md)
 
